@@ -45,6 +45,7 @@ export default function RequestsDistribution() {
       datasets: [
         {
           //label: ["INFO", "SUCCESS", "REDIRECT", "CLIENT ERROR", "SERVER ERROR"],
+          label: 'HTTP Answer Codes',
           data: [info, success, redirect, clientError, serverError],
           backgroundColor: [
             '#ee9b00',
